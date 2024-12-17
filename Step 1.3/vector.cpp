@@ -12,7 +12,12 @@ int main(){
     cout<<"v.back = "<<v.back()<<endl;
     cout<<"vector = ";
     for(vector<int>::iterator it1 = v.begin(); it1 !=v.end();it1++){
-        cout<<*it1<<",";
+        cout<<*it1<<" ";
+    }
+    cout<<endl;
+    cout<<"using for each loop : ";
+    for(auto it2 : v){
+        cout<<it2<<" ";
     }
     cout<<endl;
 }
