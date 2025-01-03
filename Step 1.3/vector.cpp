@@ -18,7 +18,7 @@ int main(){
     cout<<"using for each loop : ";
     for(auto it2 : v){
         cout<<it2<<" ";
-        cout<<it2<<" ";
+        // cout<<it2<<" ";
     }
     cout<<endl;
 }
