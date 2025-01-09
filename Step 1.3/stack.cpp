@@ -1,3 +1,6 @@
+//time complexity: O(1)
+//LIFO
+
 #include<iostream>
 #include<stack>
 using namespace std;
