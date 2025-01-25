@@ -19,6 +19,7 @@ int main(){
     for(auto it2 : v){
         cout<<it2<<" ";
         cout<<it2<<" ";
+         cout<<it2<<" ";
     }
     cout<<endl;
 }
